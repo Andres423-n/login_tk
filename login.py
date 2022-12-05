@@ -1,5 +1,4 @@
-#javier rojas
-#carlos andres masrin
+#carlos andres marin
 
 from cProfile import label
 from tkinter import *
