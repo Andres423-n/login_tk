@@ -1,6 +1,6 @@
 import mysql.connector
 
-conexion1=mysql.connector.connect(host="localhost", user="proyectof", passwd="1234")
+conexion1=mysql.connector.connect(host="localhost", user="nombre_usuario", passwd="contraseña_usuario")
 cursor1=conexion1.cursor()
 cursor1.execute("show databases")
 for base in cursor1:
